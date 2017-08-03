@@ -1,0 +1,12 @@
+Class Nedir?
+Genel olarak ortak özelliklerin tutulduðu küme denilebilir. Örneðin; Araçlar Sýnýfý, içerisinde otomobil, kamyonet gibi türleri barýndýrabilir.
+
+
+Property Nedir?
+Property, set/get methodlarýndan oluþur. Set ile deðer verilir. Get ile deðer okunur.
+
+
+Public, Private, Protected Keywordleri Nedemektir, Ne Ýçin Kullanýlýr?
+Public ile yazýlan bir kod bloðuna her türlü alandan eriþilebilir.
+Private ile yazýlan bir kod bloðuna sadece kendi sýnýfýnda eriþim saðlanýr.
+Protected ile yazýlan bir kod bloðuna kebndi sýnýfýnda ve alt sýnýflarýndan eriþim saðlanýr.
