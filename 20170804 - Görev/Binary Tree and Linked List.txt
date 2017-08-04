@@ -1,7 +1,0 @@
-Linked List Nedir?
-Sýralý Listedir. Örneðin matruþka. En küçük matruþkaya ulaþmak için en büyüðünden baþlayarak sýrayla gitmek gerekiyor.
-Mesela asansörde 5.kata ulaþmak için ilk 4 kattan geçmek gerekiyor.
-
-Binary Tree Nedir?
-Sað kol, Sol kol ve Kökten oluþur. Bir sayý dizisinden Kök'e bir sayý atanýr. Daha sonra sayý dizisinden gelen her bir
-sayý eðer kök sayýdan küçükse sol kola, kök sayýdan büyükse sað kola yazýlýr. Böylelikle bir aðaç oluþur.
