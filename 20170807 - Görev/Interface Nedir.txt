@@ -1,0 +1,10 @@
+INTERFACE NEDÝR?
+Interface içinde sadece kendisinden türeyen sýnýflarýn içini doldurmak zorunda olduðu,
+içi boþ metod tanýmlarýnýn yapýldýðý bir yapýdýr. 
+
+Örneðin, köpekler hayvan sýnýfýna dahil edilmelidir. Ve hayvanlara ait ortak özellikleri barýndýrmalýdýr.
+
+Bir sýnýfa ait birden fazla nesne varsa interface kullanmak, kodun daha esnek olmasýný saðlayacaktýr.
+Eðer bir sýnýfýn bir tane nesnesi olacaksa interface kullanmaya gerek kalmayacaktý.
+
+Interface lere implement yoluyla ile eriþilir.
