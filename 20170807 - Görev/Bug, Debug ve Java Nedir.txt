@@ -1,0 +1,10 @@
+BUG NEDÝR?
+Bug, kýsaca yazýlan programlarda ortaya çýkan hatalardýr. Yýllar yýllar önce bir þirket bilgisayarýnda hatalar oluþmuþ.
+Teknisyenler günlerce bilgisayarý tararlar ve bir sorun bulamazlar. Daha sonra bilgisayarýn içini açtýklarýnda bir böcek ile karþýlaþýrlar.
+Tüm soruna böcek sebep olduðu için, bundan sonra oluþan tüm programlara böcek denmektedir.
+
+DEBUG NEDÝR?
+Debug, programý adým adým çalýþtýrýp bir hata oluyorsa bu hatanýn hangi satýrda olduðunu bulmak demektir.
+
+JAVA NEDÝR?
+Java, ABD 'de kahvenin gündelik ifadesidir. Buna sebep olan kahvenin Java adasýnda üretilmesi olabilir.
