@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
 public class mainClass {
-	static int max = 0;
-	static int sayi;
+	static long max = 0;
+	static long sayi;
+	static long denemesayisi = 0;
 
-	public static void isAsal(int z) {
-		int sayac = 0;
-		for (int x = z; x > 1; x--) {
+	public static void isAsal(long z) {
+		long sayac = 0;
+		for (long x = z; x > 1; x--) {
 			if (z % x == 0) {
 				sayac++;
 			}
@@ -21,13 +22,15 @@ public class mainClass {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Bir Sayi Giriniz: ");
-		sayi = input.nextInt();
+		sayi = input.nextLong();
 
-		for (int i = 1; i <= sayi; i++) {
+		for (long i = 1; i <= sayi; i++) {
 			if (sayi % i == 0) {
 				isAsal(i);
+				denemesayisi++;
 			}
 		}
 		System.out.println(max);
+		System.out.println("Deneme -->" + denemesayisi);
 	}
 }
