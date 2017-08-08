@@ -28,6 +28,6 @@ public class mainClass {
 				isAsal(i);
 			}
 		}
-		System.err.println(max);
+		System.out.println(max);
 	}
 }
