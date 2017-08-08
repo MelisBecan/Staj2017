@@ -1,0 +1,5 @@
+Ýsimleri dýþýnda benzer bir yanlarý yoktur. Ýkiside farklý programlama dilidir.
+Java kodunun derlenmesi gerekir, JavaScript kodlarý metinlerden oluþur.
+
+Java, sunucu tabanlý çalýþan uygulama geliþtirmeyi saðlar. 
+Javascript ise kullanýcý tarafýnda çalýþabilir. Tarayýcý üzerinden anlýk olarak isteklere cevap verebilir.

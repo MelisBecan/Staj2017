@@ -1,0 +1,12 @@
+MVC Nedir?
+Model-View-Controller
+
+Model(Ýþlem Alaný) - Controller(Model View arasý köprü) - View(Görsel Tasarým Alaný)
+
+Model - Projenin iþlem alaný bu kýsýmda bulunur.
+View - Ýþlemlerden alýnan sonuçlar view kýsmýnda kullanýcýya gösterilir.
+Controller - Model ile View arasýnda baðlantý saðlar. Taþýyýcý - köprü görevi görür.
+
+MVC yapýsý kullanýldýðýnda proje üzerinde görsel tasarým deðiþtirilecekse sadece View kýsmýnda
+düzenleme yapmak yeterlidir. Kod kýsmýnda düzenleme yapmak için Model kýsmý kullanýlýr.
+Daha okunaklý kod yapýsý oluþur. Spagetti kod yapýsý oluþmaz.

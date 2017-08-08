@@ -1,0 +1,8 @@
+NOT DEFTERİ UYGULAMASI ŞABLON
+
+MODEL -> Bu kısımda veritabanı kayit işlemlerinin yapıldığı, yazılan içeriğin kontrol edildiği ve
+menünün yaptığı işlemler olmak üzere üç class yeterlidir.
+
+VIEW -> Bu kısımda menü, yazı yazılacak alana ait classlar bulunur. 2 Adet class yeterlidir.
+
+CONTROLLER -> Bu kısımda ise model ile view arası bağlantıyı oluşturan bir class yeterlidir.
