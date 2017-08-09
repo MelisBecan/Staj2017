@@ -1,0 +1,9 @@
+Öncelikle bir “plant” interface’i kodlayalým. Bu interface “isColoured()” ve “getName()” methodlarýný barýndýrsýn.
+ 
+“Plant” interface’ini implement etmiþ 2 adet class yazalým. Bunlar “Fruit” ve “Vegetable” classlarýdýr. Fruit classýnýn her instance’ý getName() methodu “Sweet + meyve ismi” formatýnda cevap dönmelidir. Vegetable için ise getName() sadece ve sadece vegetable ismi dönmelidir.
+ 
+Apple classý fruit classýnýn tüm özelliklerini barýndýrmaktadýr. Apple classýnýn özellikleri ise 2 ayrý sýnýf tarafýndan barýndýrýlmaktadýr. Bunlar “RedApple” ve “GreenApple” classlarýdýr. GreenApple classý getTaste() methodunu da barýndýrýr. Bu method “sour” cevabý döner. GreenApple getName() methodu ise cevaben “Sour GreenApple” cevabý döner. “GoldenApple” GreenApple sýnýfýndan türemiþtir. Classýn içi tamamen boþtur. GoldenApple getName() methodu ise “Sour GoldenApple”  cevabi döner. RedApple classýnýn peel() methodu console’a “RedApple peeled” yazar. Bu method RedApple classýnýn bir instance’ý olmadan çaðýrýlabilir. – new RedApple() yazmayacaksýnýz hiçbir yerde.
+ 
+Tomatoes classý Vegetable türündedir. seedCount isminde bir propertysi vardýr. Bu count asla deðiþtirilemez. Buna uygun olarak seedCount propertysinin getter ve setterlarýný yazýnýz.
+ 
+Gelelim isColoured methoduna. Bu methodu sadece ve sadece 1 noktada yazmanýzý istiyorum. Sadece 1 class içerisinde isColoured isminde bir method olmalýdýr ve çaðýrýldýðýnda console’da “Just eat it!” yazmalý ve true return etmelidir.
