@@ -1,0 +1,20 @@
+DESIGN PATTERN NEDÝR?
+Proje gelistirmede, bir tasarým problemini en basit ve en efektif bir þekilde çözüme kavuþturacak yöntemdir. 
+Yani diyelim ki besiktastan uskudara gececeksiniz. Tasarim sablonunuz size vapura binmenizi soylemelidir. 
+Yoksa besiktas' tan uskudar' a avusturalya uzerinden gitmek de mumkundur.
+
+
+
+Design pattern proje geliþtirme esnasýnda kodlarýn tekrarlý kullanýmlarýný saðlayan, 
+yazýlýmsal olarak ortaya çýkan hatalarý çözen ve çözdüðü 
+hatalarý kullanýlabilir hale getiren yapýdýr. 
+Bu çözümler, oldukça uzun bir sürede birçok yazýlým geliþtiricisi tarafýndan deneme yanýlma 
+yoluyla elde edildi.
+
+
+Observer design pattern ise program içerisinde deðiþiklik yaþanan bir durum varsa bu durumla ilgili birimleri 
+deðiþiklik hakkýnda bilgilendiren yapýdýr.
+Bu yapý gözlemci ve gözlenen classlarý arasýnda döner. 
+Gözlenen sýnýfýnda bir deðiþik olursa gözlemci sýnýfý bu deðiþikliði bildirir.
+ Observer modeli üç sýnýf kullanýr. 
+Konu, Gözlemci ve Müþteri. Konu, gözlemci ekleme ve istemci nesnesine ayýrma yöntemleri bulunan bir nesnedir.
