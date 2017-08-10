@@ -7,7 +7,7 @@ public class mainClass {
 	public static void main(String[] args) {
 		String[] dizi1 = { "a", "b", "c" };
 		int[] dizi2 = { 1, 2, 3, 5 };
-		String[] dizi3 = { "Mazhar", "Fuat", "Özkan" };
+		String[] dizi3 = { "Mazhar", "Fuat", "Ã–zkan" };
 		int[] dizi4 = new int[dizi2.length];
 
 		ArrayList<String> Dizi = new ArrayList<String>();
@@ -38,20 +38,12 @@ public class mainClass {
 
 		System.out.println("---------------------");
 
-		HashMap<String, String> yenihashmap = new HashMap<String, String>();
+		HashMap<String, Object> yenihashmap = new HashMap<String, Object>();
+		Object o = new Object();
 		
-		yenihashmap.put("harfler1", dizi1[0]);
-		yenihashmap.put("harfler2", dizi1[1]);
-		yenihashmap.put("harfler3", dizi1[2]);
-
-		yenihashmap.put("sayilar1", String.valueOf(dizi2[0]));
-		yenihashmap.put("sayilar2", String.valueOf(dizi2[1]));
-		yenihashmap.put("sayilar3", String.valueOf(dizi2[2]));
-		yenihashmap.put("sayilar4", String.valueOf(dizi2[3]));
-
-		yenihashmap.put("ustalar1", dizi3[0]);
-		yenihashmap.put("ustalar2", dizi3[1]);
-		yenihashmap.put("ustalar3", dizi3[2]);
+		yenihashmap.put("harfler", dizi1);
+		yenihashmap.put("sayilar", dizi2);
+		yenihashmap.put("ustalar", dizi3);
 
 		for (Map.Entry gosterici : yenihashmap.entrySet()) {
 			System.out.println(gosterici.getKey() + " " + gosterici.getValue());
