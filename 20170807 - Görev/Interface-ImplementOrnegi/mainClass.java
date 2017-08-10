@@ -8,13 +8,14 @@ public class mainClass {
 		Araclar kamyon1 = new Kamyon();
 		
 		
-		System.out.println("Arabanýn Özellikleri -> ");
-		System.out.println("TS: " + araba1.TekerlekSayisi() + " " + "MG: " + araba1.MotorGucu() + " " + "R: " + araba1.Renk() + "\n");
+		System.out.println("ArabanÃ½n Ã–zellikleri -> ");
+		System.out.println("TS: " + araba1.TekerlekSayisi() + " " + "MG: " + 
+			araba1.MotorGucu() + " " + "R: " + araba1.Renk() + "\n");
 		
-		System.out.println("Traktorun Özellikleri -> ");
+		System.out.println("Traktorun Ã–zellikleri -> ");
 		System.out.println("TS: " + traktor1.TekerlekSayisi() + " " + "MG: " + traktor1.MotorGucu() + " " + "R: " + traktor1.Renk() + "\n");
 		
-		System.out.println("Kamyonun Özellikleri -> ");
+		System.out.println("Kamyonun Ã–zellikleri -> ");
 		System.out.println("TS: " + kamyon1.TekerlekSayisi() + " " + "MG: " + kamyon1.MotorGucu() + " " + "R: " + kamyon1.Renk() + "\n");
 	}
 
