@@ -9,8 +9,7 @@ public class mainClass {
 		
 		
 		System.out.println("Arabanýn Özellikleri -> ");
-		System.out.println("TS: " + araba1.TekerlekSayisi() + " " + "MG: " + 
-			araba1.MotorGucu() + " " + "R: " + araba1.Renk() + "\n");
+		System.out.println("TS: " + araba1.TekerlekSayisi() + " " + "MG: " + araba1.MotorGucu() + " " + "R: " + araba1.Renk() + "\n");
 		
 		System.out.println("Traktorun Özellikleri -> ");
 		System.out.println("TS: " + traktor1.TekerlekSayisi() + " " + "MG: " + traktor1.MotorGucu() + " " + "R: " + traktor1.Renk() + "\n");
