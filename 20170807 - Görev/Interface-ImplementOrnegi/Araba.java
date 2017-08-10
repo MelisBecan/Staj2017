@@ -16,8 +16,7 @@ public class Araba implements Araclar {
 	
 	@Override
 	public String Renk() {
-		String renk="Sarı";
+		String renk="SarÃ½";
 		return renk;
 	}
-
 }
