@@ -1,0 +1,28 @@
+-Stored procedure nedir?
+
+Stored Procedure’ler parametre alabilen, parametre almasına gerek kalmayan, kayıt edilebilen, tekrar sorgu edilmesine
+gerek kalmayan, değer döndürebilen bir yordamdır.
+
+-Commit ve rollback ne demektir? Kullanımını örnekle açıklayınız.
+
+Transactıon İfadeleri
+
+Transaction yönetimi için kullanılan dört farklı ifade vardır. Bu ifadeler ile transaction başlatılabilir (BEGIN), 
+işlemler geri alınabilir (ROLLBACK), transaction bitirilebilir (COMMIT) ya da kayıt noktaları (SAVE) oluşturulabilir.
+
+COMMIT:
+Transaction’ın tamamlandığını ve gerçekleştirilen transaction işlemlerinin kalıcı olarak veritabanına yansıtılması için 
+kullanılır. Transaction tarafından etkilenen tüm değişiklikler, işlemlerin tamamı gerçekleşmese bile, bu işlemden sonra 
+kalıcı hale gelir. COMMIT işleminden sonra gerçekleşen değişikliklerin geri alınması için, bu işlemleri geri alacak yeni
+bir transaction oluşturulmalıdır.
+
+COMMIT TRAN[SACTION] [transaction_ismi | @transaction_degiskeni]
+
+ROLLBACK: 
+Transaction’ın gerçekleştirdiği tüm işlemleri geri almak için kullanılır. Yani, yapılan tüm işlemler transaction’ın 
+başlangıcındaki haline geri döner. Verilerdeki değişikliklerin anında kalıcı olarak veritabanına yansıtılmadığını 
+belirtmiştik. ROLLBACK ile gerçekleştirilen tüm işlemler geriye alınarak transaction sonucunun tutarlılığı garanti edilir.
+ROLLBACK işlemi, oluşturduğunuz transaction mimarisine bağlı olarak, kayıt noktalarına (save points) geri dönüş için de 
+kullanılabilir.
+
+ROLLBACK TRAN[SACTION] [transaction_ismi | kayit_noktasi_ismi | @transaction_degiskeni | @kayit_noktasi_degiskeni]

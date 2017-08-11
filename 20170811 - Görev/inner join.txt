@@ -1,1 +1,0 @@
-SELECT persons.Name AS 'Ad', persons.Surname AS 'Soyad', genders.Description AS 'Cinsiyet', persons.Email AS 'Mail' FROM persons INNER JOIN genders ON persons.Gender=genders.Id
