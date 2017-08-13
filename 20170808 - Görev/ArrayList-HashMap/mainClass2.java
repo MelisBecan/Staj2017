@@ -38,13 +38,10 @@ public class MainClass
 		System.out.println("2.liste :  "+ array2[1]+","+array2[2]+","+array2[3]);
 		 
 		HashMap<String, Object> newHashMap= new HashMap<String,Object>();
-		
-		
 		newHashMap.put("harfler", array1);
 		newHashMap.put("sayilar", array2);
 		newHashMap.put("ustalar", array3);
-		
-				
+						
 		for(Map.Entry gosterici : newHashMap.entrySet())
 		{
 			System.out.println(gosterici.getKey()+" "+gosterici.getValue());
