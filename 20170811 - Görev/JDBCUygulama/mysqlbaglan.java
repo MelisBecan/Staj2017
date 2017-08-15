@@ -8,6 +8,7 @@ import java.sql.Statement;
 import com.mysql.jdbc.SQLError;
 
 public class mysqlbaglan {
+	
 	Connection con;
 	
 	public static final String URL = "jdbc:mysql://localhost:3306/intern_dev?verifyServerCertificate=false&useSSL=false";
@@ -21,7 +22,6 @@ public class mysqlbaglan {
 		} catch (SQLException sqle) {
 			sqle.getMessage();
 		}
-
 		return con;
 	}
 }
