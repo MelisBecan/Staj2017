@@ -1,0 +1,14 @@
+MAVEN NEDÝR? NE ÝÇÝN KULLANILIR?
+Baðýmlýlýk yönetim aracý. Projenin baðýmlý olduðu kütüphaneleri sizin yerine otomatik olarak projeye dahil etmektir.
+Maven olmasaydý her bir kütüphaneyi projeye tek tek sürüm numaralarýný kontrol ederek eklememiz gerekiyordu. Maven
+ise bunlarýn hepsini otomatik olarak bizim yerimize yapabiliyor.
+Bize saðladýðý en güzel özellik ise, projelerimizi istediðimiz yere kolayca taþýmamýzý saðlar.
+Faket Maven, proje yapýsýnýn kendi istediði yapýda olmasýna zorlar.
+
+GRADLE NEDÝR? NE ÝÇÝN KULLANILIR?
+Ýnþaa yönetim aracýdýr. Ant ve Maven'ýn iyi taraflarýný alan bir yapýdýr. Proje yapýsý konusunda herhangi bir zorlamasý
+yoktur. Ant'ýn esnekliði ile Maven'ýn kütüphane yönetimi bir arada istenirse Gradle kullanýlabilir.
+
+CONTINUOUS INTEGRATION NEDÝR? NE ÝÇÝN KULLANILIR?
+Proje üzerinde yapýlan her commit ardýndan, tüm sistemin çalýþýr durumda olduðunu, yapýlan deðiþikliðin 
+sistemin bazý bölümlerinde hataya yol açmadýðýný tespit etmek için kullanýlan yöntemdir.
