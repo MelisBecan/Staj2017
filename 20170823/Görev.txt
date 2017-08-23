@@ -1,0 +1,22 @@
+Product Backlog Item listeniz aþaðýdadýr.
+ 
+Hashtag yönetim sayfasý olmalý
+-        Hastag eklenecek
+-        Hashtag silinecek
+-        Hashtag güncellenecek
+-        Hashtag aranacak ve bulunan tag üzerinde iþlem yapýlabilecek
+ 
+ 
+Detay sayfasýnda probleme hashtag eklenebilmeli
+Detay sayfasýnda problemden hashtag silinebilmeli
+ 
+Arama fonksiyonu
+**Arama kutucuðunun yanýna 3 seçenekli bir combo eklenmeli. Seçenekler “Çözümlerde ara”,”Problemlerde ara”,”Hashtag ile ara” BÝTTÝ.
+Problem metni içerisinde geçen kelimelerden arama yapýp sonuçlar ekrana listelenmeli. Listedeki kayýt týklandýðýnda o kaydýn detay sayfasýný açmalý
+Ana sayfadaki hashtagler týklandýðýnda o hashtage sahip kayýtlar listelenmeli. Listedeki kayýt týklandýðýnda o kaydýn detay sayfasýný açmalý
+Çözüm metni içerisinde geçen kelimelerden arama yapýp sonuçlar ekrana listelenmeli. Listedeki kayýt týklandýðýnda o kaydýn detay sayfasýný açmalý. Buradaki liste çözümleri listelemeli. Problemler gözükmemeli.
+Aranan kelime bulunan sonuçlar metni içerisinde farklý bir renkle gösterilmeli.
+ 
+**Kayýtlama, güncelleme veya silme yapýlan her yerde iþlem bittiðinde iþlem baþarýlý mesajý vermelisiniz.
+ 
+Problem ekleme sayfasýnda probleme hashtag eklenebilmeli
